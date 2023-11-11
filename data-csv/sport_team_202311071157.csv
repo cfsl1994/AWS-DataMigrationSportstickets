@@ -1,0 +1,63 @@
+"id","name","abbreviated_name","home_field_id","sport_type_name","sport_league_short_name","sport_division_short_name"
+131.0,Arizona Diamondbacks,ARI,4,baseball,MLB,NL West
+21.0,Atlanta Braves,ATL,27,baseball,MLB,NL East
+201.0,Baltimore Orioles,BAL,19,baseball,MLB,AL East
+91.0,Boston Red Sox,BOS,10,baseball,MLB,AL East
+211.0,Chicago Cubs,CHC,29,baseball,MLB,NL Central
+251.0,Chicago White Sox,CWS,28,baseball,MLB,AL Central
+181.0,Cincinnati Reds,CIN,12,baseball,MLB,NL Central
+111.0,Cleveland Indians,CLE,22,baseball,MLB,AL Central
+61.0,Colorado Rockies,COL,8,baseball,MLB,NL West
+11.0,Detroit Tigers,DET,7,baseball,MLB,AL Central
+141.0,Houston Astros,HOU,16,baseball,MLB,AL West
+51.0,Kansas City Royals,KC,13,baseball,MLB,AL Central
+121.0,Los Angeles Angels,LAA,1,baseball,MLB,AL West
+41.0,Los Angeles Dodgers,LAD,9,baseball,MLB,NL West
+231.0,Miami Marlins,MIA,14,baseball,MLB,NL East
+221.0,Milwaukee Brewers,MIL,15,baseball,MLB,NL Central
+31.0,Minnesota Twins,MIN,25,baseball,MLB,AL Central
+1.0,New York Mets,NYM,5,baseball,MLB,NL East
+171.0,New York Yankees,NYY,30,baseball,MLB,AL East
+81.0,Oakland Athletics,OAK,18,baseball,MLB,AL West
+261.0,Philadelphia Phillies,PHI,6,baseball,MLB,NL East
+271.0,Pittsburgh Pirates,PIT,21,baseball,MLB,NL Central
+191.0,San Diego Padres,SD,20,baseball,MLB,NL West
+101.0,San Francisco Giants,SF,2,baseball,MLB,NL West
+151.0,Seattle Mariners,SEA,24,baseball,MLB,AL West
+71.0,St. Louis Cardinals,STL,3,baseball,MLB,NL Central
+161.0,Tampa Bay Rays,TB,26,baseball,MLB,AL East
+281.0,Texas Rangers,TEX,11,baseball,MLB,AL West
+291.0,Toronto Blue Jays,TOR,23,baseball,MLB,AL East
+241.0,Washington Nationals,WSH,17,baseball,MLB,NL East
+591.0,Los Angeles Rams,LA,31,football,NFL,NFC West
+551.0,New York Giants,NYG,32,football,NFL,NFC East
+411.0,New York Jets,NYJ,32,football,NFL,AFC East
+571.0,Washington Redskins,WAS,34,football,NFL,NFC East
+481.0,Green Bay Packers,GB,35,football,NFL,NFC North
+541.0,Dallas Cowboys,DAL,36,football,NFL,NFC East
+431.0,Kansas City Chiefs,KC,37,football,NFL,AFC West
+421.0,Denver Broncos,DEN,38,football,NFL,AFC West
+511.0,Carolina Panthers,CAR,39,football,NFL,NFC South
+521.0,New Orleans Saints,NO,40,football,NFL,NFC South
+341.0,Houston Texans,HOU,41,football,NFL,AFC South
+381.0,Buffalo Bills,BUF,42,football,NFL,AFC East
+501.0,Atlanta Falcons,ATL,43,football,NFL,NFC South
+301.0,Baltimore Ravens,BAL,44,football,NFL,AFC North
+451.0,San Diego Chargers,SD,45,football,NFL,AFC West
+561.0,Philadelphia Eagles,PHI,46,football,NFL,NFC East
+371.0,Tennessee Titans,TEN,47,football,NFL,AFC South
+601.0,San Francisco 49ers,SF,48,football,NFL,NFC West
+331.0,Pittsburgh Steelers,PIT,49,football,NFL,AFC North
+611.0,Seattle Seahawks,SEA,50,football,NFL,NFC West
+321.0,Cleveland Browns,CLE,51,football,NFL,AFC North
+361.0,Jacksonville Jaguars,JAX,52,football,NFL,AFC South
+351.0,Indianapolis Colts,IND,53,football,NFL,AFC South
+401.0,New England Patriots,NE,54,football,NFL,AFC East
+491.0,Minnesota Vikings,MIN,55,football,NFL,NFC North
+531.0,Tampa Bay Buccaneers,TB,56,football,NFL,NFC South
+311.0,Cincinnati Bengals,CIN,57,football,NFL,AFC North
+391.0,Miami Dolphins,MIA,58,football,NFL,AFC East
+471.0,Detroit Lions,DET,59,football,NFL,NFC North
+581.0,Arizona Cardinals,ARI,60,football,NFL,NFC West
+461.0,Chicago Bears,CHI,61,football,NFL,NFC North
+441.0,Oakland Raiders,OAK,62,football,NFL,AFC West
