@@ -60,7 +60,7 @@ to check the data migrated.
 		   where schema name is like 'dms_sample' and Source table name is like 'mlb_data', include
 		   You cant add other tables
 
-#### AWS S3
+### AWS S3
 #### CREATE AND SELECT YOUR BUCKET
 
 ### AWS GLUE
