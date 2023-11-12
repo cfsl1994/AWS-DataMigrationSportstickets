@@ -17,5 +17,71 @@ to check the data migrated.
   
 ## Setup
 
+###Data Migration Service
+
+#### Replication instances
+
+	- name -> dms-replication-instance
+	- Engine version -> 3.5.1
+	- Instance class -> dms.t3.medium
+	- Multi AZ -> No
+	- Alocated storage -> 50
+	- VPC -> Default
+	- Replication subnet group -> Default
+	- VPC security groups -> Default
+
+#### Endpoints Source
+
+	- name -> rds-source-endpoint
+	- Endpoint engine -> Postgresql
+	- Endpoint type -> Source
+	- User name -> adminuser
+	- SSL mode -> None
+	- Server name -> Depents of ngrok
+	- Port -> Depents of ngrok
+	- Database name -> sportstickets
+
+#### Endpoints Target
+
+	- name -> s3-target-endpoint
+	- Endpoint engine -> Amazon s3
+	- Endpoint type -> Target
+	- Bucket name -> YOUR BUCKET
+	- Bucket folder -> tickets
+	- SSL mode -> None
+
+#### Database migration tasks
+
+	- name -> dms-full-dump-task
+	- Type -> Full load
+	- Source -> rds-source-endpoint
+	- Target -> s3-target-endpoint
+	- Replication instance -> dms-replication-instance
+	- Mapping rules -> where schema name is like 'dms_sample' and Source table name is like 'name_data', include
+		   where schema name is like 'dms_sample' and Source table name is like 'mlb_data', include
+		   You cant add other tables
+
+AWS GLUE
+
+#### Databases 
+    - name -> migrationsportstickerdatabase
+
+#### Crawlers
+
+	- name -> Crawler-Migration-SportSticker
+	- IAM Role -> YOUR IAM ROLE
+	- Table prefix -> csv_
+	- Database -> migrationsportstickerdatabase
+	- Frequency -> On demand
+	- Data type -> S3
+	- Data Source -> s3://data-engineer-dmslab-student/Tickets/dms_sample/
+	- Parameters -> Recrawl all
+
+AWS ATHENA
+
+	- Data Source -> AwsDataCatalog
+	- Database -> migrationsportstickerdatabase
+	-Tables -> All
+
 ## Architecture-Diagram
 ![Architecture Diagram](AWS-Migration-SportStickets.jpg)
