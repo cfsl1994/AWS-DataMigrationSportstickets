@@ -76,7 +76,7 @@ to check the data migrated.
     - Database -> migrationsportstickerdatabase
     - Frequency -> On demand
     - Data type -> S3
-    - Data Source -> s3://data-engineer-dmslab-student/Tickets/dms_sample/
+    - Data Source -> s3://YOUR_BUCKET/Tickets/dms_sample/
     - Parameters -> Recrawl all
 
 ### AWS ATHENA
